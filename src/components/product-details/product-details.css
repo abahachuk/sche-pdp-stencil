@@ -1,0 +1,21 @@
+.flex {
+  display: flex;
+}
+
+.align-horizontally {
+  justify-content: space-evenly;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 900px;
+}
+
+.image {
+  width: 200px;
+  height: 200px;
+}
+
+p {
+  display: inline-block;
+}

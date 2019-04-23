@@ -1,0 +1,27 @@
+{
+  "name": "stencil-ssr-starter",
+  "version": "0.0.1",
+  "private": true,
+  "main": "server.js",
+  "description": "Stencil starter with server-side rendering",
+  "scripts": {
+    "build": "stencil build",
+    "dev.ssr": "stencil build --dev --es5 --watch --serve",
+    "ssr": "node --inspect server.js",
+    "start": "stencil build --dev --watch --serve",
+    "start.ssr": "npm run build && npm run ssr"
+  },
+  "dependencies": {
+    "@stencil/core": "^0.18.1",
+    "@stencil/redux": "^0.1.1",
+    "@stencil/router": "latest",
+    "express": "^4.16.4",
+    "tslint": "^5.16.0"
+  },
+  "engines": {
+    "node": ">=6.11.0"
+  },
+  "devDependencies": {
+    "workbox-build": "3.4.1"
+  }
+}
